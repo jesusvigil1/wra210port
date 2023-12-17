@@ -1,0 +1,164 @@
+/* the outer nav container */
+
+body{
+    padding-top: 4%;
+    background-color: #b62c43;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+}
+
+a{
+	color: #bac3c5;
+}
+
+nav{
+	background-color: #9d663f;
+
+}
+nav .current {
+    background-color: #d68e9d;
+    color:white;
+}
+
+/* the unordered list inside */
+nav ul {
+	list-style-type: none;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: 50px;
+	gap: 5px;
+	flex-direction: column;
+	transition-property: background-color;
+
+}
+nav ul li:hover{
+	background-color: #62b153;
+	transition: all 1s;
+}
+
+
+@media screen and (max-width: 769px){
+	nav{
+		padding: 1px;
+	}
+	nav ul{
+		list-style-type: none;
+		background-color: #62b153;
+		display: flex;
+		transition-property: background-color;
+
+	}
+	nav ul li:hover{
+		background-color: #e3929d
+        ;
+		transition: all 1s;
+	}
+}
+
+/* each element in the list */
+nav ul li{
+	margin: 5px;
+}
+
+
+/* the actual link tag */
+nav ul li a {
+	/* the setting below might be of use: */
+	padding: 0%;
+	display: inline-block;	
+}
+
+iframe{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    margin: 15px 0;
+}
+
+h2{
+    margin: 0;
+    font-weight: 100;
+}
+
+#mockLogo{
+    background-color: #dec7a1;
+    border-radius: 0%;
+    text-align: left;
+    width: 0%;
+}
+
+.card{
+    background-color: #dec7a1;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px;
+    border: 1px solid #aaa;
+}
+
+.card .avatar{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+#lala{
+    width: 600px;
+}
+
+.card2{
+    background-color: #dec7a1;
+    border-radius: 3px;
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px;
+    border: 1px solid #aaa;
+}
+
+
+.card2 .avatar{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+.card3{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.card3 .avatar{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+
+.card .links{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.card .links li {
+    width: 80px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.card .links li a img:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
