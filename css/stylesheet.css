@@ -80,7 +80,7 @@ img{
 }
 
 h1{
-    margin: 15px 0;
+    margin: 0;
 }
 
 h2{
@@ -119,7 +119,7 @@ h2{
 .card2{
     background-color: #dec7a1;
     border-radius: 3px;
-    margin: 0;
+    margin: 0 auto;
     width: 300px;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px;
