@@ -79,11 +79,6 @@ img{
     width: 100%;
 }
 
-img:hover{
-    opacity: 0.5;
-    transition: opacity ease-in-out 0.2s;
-}
-
 h1{
     margin: 0;
 }
@@ -153,6 +148,12 @@ h2{
     border-radius: 50%;
     margin-top: -50px;
 }
+
+.card3 img:hover{
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
 
 .card .links{
     margin: 0;
