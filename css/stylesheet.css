@@ -1,7 +1,7 @@
 /* the outer nav container */
 
 body{
-    width: 85%;
+    width: 90%;
     padding-top: 4%;
     background-color: #b62c43;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -97,7 +97,7 @@ h2{
     background-color: #dec7a1;
     border-radius: 15px;
     margin: 0 auto;
-    width: 600px;
+    width: 100%;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 10px;
     border: 1px solid #aaa;
